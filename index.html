@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>WikiPop</title>
+        <style>
+          body{
+            width:100%;
+            min-height:100vh;
+            margin: 0;
+            overflow-x:hidden;
+           
+          }
+            *{
+                margin:0;
+                padding:0;
+            }
+            
+            .container{
+         background:  linear-gradient(rgba(165, 59, 121, 0.5),rgba(109, 11, 76, 0.5)),url("polkadot.jpg");
+          height:100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+            }
+            .picture img{
+                height: 300px;
+                width: 300px;
+                border-radius: 50%;
+                position: relative;
+                left: -180px;
+                bottom: 100px;
+            }
+          .rectangle{
+            height: 10vh;
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            position:relative;
+            left: -150px;
+            position:relative;
+          }
+
+          .rectangle1 {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+      
+         
+          .rectangle1  .aboutbox{
+            margin: 0 8px;
+            border: solid 1px red;
+            width: 400px;
+            height: 200px;
+          }
+          .rectangle1 .projectbox{
+            margin: 0 8px;
+            border: solid 1px red;
+            width: 400px;
+            height: 200px;
+            position:relative;
+            bottom: -20px;
+          }
+         
+
+          .projectbox p{
+            display:none;
+          }
+
+          .projectbox:hover p{
+            display:block;
+          }
+          
+
+          .rec2 {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+          .rec2  .resumebox{
+            margin: 0 8px;
+            border: solid 1px red;
+            width: 400px;
+            height: 200px;
+          }
+          
+          
+          .resumebox p{
+            display:none;
+          }
+
+          .resumebox:hover p{
+            display:block;
+          }
+        
+
+
+          .rec2 .spotifybox{
+            margin: 0 8px;
+            border: solid 1px red;
+            width: 400px;
+            height: 200px;
+            position:relative;
+            bottom: -20px;
+           
+          }
+
+          .spotifybox p{
+            display:none;
+          }
+
+          .spotifybox:hover p{
+            display:block;
+          }
+         
+   
+    
+
+         
+         
+        </style>
+
+    </head>
+    <body>
+          <section class = "container" >
+            <div class = "picture" >
+                <img src = "suneedhi.jpg">  
+            </div>
+            <div class = "rectangle" >
+            <div class = "rectangle1">
+              <div class="aboutbox">
+               
+              </div>
+              <div class="projectbox">
+                 <p> Project's and experience</p>
+                </div>
+            </div>
+            <div class= "rec2">
+              <div class="resumebox">
+                
+              </div>
+              <div class="spotifybox">
+                <p>spotify</p>
+              </div>
+            </div>
+            </div>
+            </section>
+      </body>
+</html>

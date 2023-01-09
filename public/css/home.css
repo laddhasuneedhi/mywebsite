@@ -1,0 +1,90 @@
+.picture img{
+  height: 200px;;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: -180px;
+  bottom: 100px;
+}
+.rectangle{
+height: 10vh;
+width: 40%;
+display: flex;
+flex-direction: row;
+text-align: center;
+position:relative;
+left: 20px;
+top: -30px;
+position:relative;
+}
+
+.rectangle1 {
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.rectangle1  .aboutbox{
+margin: 0 8px;
+border: solid 1px red;
+width: 400px;
+height: 200px;
+}
+.rectangle1 .projectbox{
+margin: 0 8px;
+border: solid 1px red;
+width: 400px;
+height: 200px;
+position:relative;
+bottom: -20px;
+}
+
+.aboutbox p{
+  display:block;
+}
+
+
+.projectbox p{
+display:block;
+}
+
+
+
+.rec2 {
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+
+}
+
+.rec2  .resumebox{
+margin: 0 8px;
+border: solid 1px red;
+width: 400px;
+height: 200px;
+}
+
+
+.resumebox p{
+display:block;
+}
+
+
+
+
+
+.rec2 .spotifybox{
+margin: 0 8px;
+border: solid 1px red;
+width: 400px;
+height: 200px;
+position:relative;
+bottom: -20px;
+
+}
+
+.spotifybox p{
+display:block;
+}

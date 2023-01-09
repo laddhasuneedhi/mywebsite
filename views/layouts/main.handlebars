@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="https://kit.fontawesome.com/98fc5c884d.js" crossorigin="anonymous"></script>
+
+      {{#if stylesheet}}
+    <link rel="stylesheet" href="{{stylesheet}}">
+    {{/if}}
+    <link rel="stylesheet" href="/public/css/main.css">
+  
+
+</head>
+
+<body id="main-body">
+     <section class = "container">
+          <main class="main-body">
+        <div class = "backbutton">
+        {{#if homePage}}
+            <h1 style = "position:relative; left: 500px;bottom: -100px;">Welcome to My Website</h1>
+        {{else}}
+        <a href="/home"><img src="/public/img/backbutton.png"></a>
+        {{/if}}
+        </div>
+        {{{body}}}
+    </main>
+     </section>
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src='/public/scripts/main.js'></script>
+
+
+</body>
+
+
+
+</html>
