@@ -34,7 +34,7 @@
     "moment": "^2.29.4",
     "mongodb": "^4.7.0",
     "multer": "^1.4.5-lts.1",
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.3",
     "sweetalert2": "^11.4.8",
     "xss": "^1.0.13"
   }
