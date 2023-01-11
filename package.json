@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "a website about me",
   "main": "app.js",
-  "engines": {
-    "node" : "14.x"
-  
-},
   "scripts": {
     "sass": "node-sass -w scss/ -o css/ --recursive",
     "start": "node app.js",
